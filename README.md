@@ -226,8 +226,7 @@ This is super common! Try:
 mcp-file-assistant-workshop/
 ├── README.md                 ← You are here
 ├── file_assistant/
-│   ├── server.py            ← Work on this file!
-│   └── server_solution.py   ← Peek if stuck
+│   └── server.py            ← Work on this file!
 └── test_files/              ← Sample files to test with
     ├── notes.txt
     └── todo.md
@@ -237,9 +236,10 @@ mcp-file-assistant-workshop/
 
 ## Stuck? Need Help?
 
-1. **Check the solution:** `file_assistant/server_solution.py`
-2. **Ask the instructor** during the workshop
+1. **Ask the instructor** during the workshop
+2. **Work with your neighbor** - pair programming helps!
 3. **Check MCP docs:** https://modelcontextprotocol.io/
+4. **Solution will be shared** after the workshop
 
 ---
 
