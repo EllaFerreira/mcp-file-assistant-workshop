@@ -47,3 +47,5 @@ htmlcov/
 
 # MCP specific
 *.log
+# Workshop - keep solution local only
+file_assistant/server_solution.py
