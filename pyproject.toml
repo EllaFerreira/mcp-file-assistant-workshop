@@ -1,0 +1,29 @@
+[project]
+name = "mcp-file-assistant"
+version = "0.1.0"
+description = "MCP Workshop - Build your first Model Context Protocol server"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Ella Ferreira", email = "ella.tmferreira@gmail.com" }
+]
+dependencies = [
+    "mcp>=0.9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/EllaFerreira/mcp-file-assistant-workshop"
+Repository = "https://github.com/EllaFerreira/mcp-file-assistant-workshop"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["file_assistant"]
+
+[project.scripts]
+mcp-file-assistant = "file_assistant.server:main"
+
+[tool.uv]
+dev-dependencies = []
